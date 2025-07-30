@@ -29,6 +29,8 @@ obj.showData()
 
 let  name2:string = "Global name";
 
+
+
 class student2{
 
     name:string = "jay";

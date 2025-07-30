@@ -20,7 +20,8 @@ subsequent enum constants receive values incremented by 1
 
 enum Roles{
     user  = "user",
-    admin = "admin"
+    admin = "admin",
+    hr="hr"
 }
 
 
@@ -58,8 +59,8 @@ const UserSecondLogin:LoginDetails ={
 }
 
 
-// console.log(isAdmin(UserOneLogin))
-// console.log(isAdmin(UserSecondLogin))
+console.log(isAdmin(UserOneLogin))
+console.log(isAdmin(UserSecondLogin))
 
 
 

@@ -31,7 +31,7 @@ Unknown Data Type:-
 
 // example :any
 
-let value:string |number | string[] = "ankit"
+let value:any = "ankit"
 
 value=100
 
@@ -48,7 +48,7 @@ console.log(value.toUpperCase())
 
 // example unknown 
 
-let value2:unknown = "yash  "
+let value2:unknown = "yash"
 
 value2 = 10
 

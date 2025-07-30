@@ -16,6 +16,7 @@ var Roles;
 (function (Roles) {
     Roles["user"] = "user";
     Roles["admin"] = "admin";
+    Roles["hr"] = "hr";
 })(Roles || (Roles = {}));
 var isAdmin = function (user) {
     var name = user.name, role = user.role;
@@ -34,9 +35,9 @@ var UserSecondLogin = {
     password: "yash12",
     role: Roles.user
 };
-// console.log(isAdmin(UserOneLogin))
-// console.log(isAdmin(UserSecondLogin))
-// Example:2
+console.log(isAdmin(UserOneLogin));
+console.log(isAdmin(UserSecondLogin));
+// Example:2  'gender'
 var Gender;
 (function (Gender) {
     Gender["male"] = "male";

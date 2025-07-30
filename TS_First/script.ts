@@ -11,6 +11,16 @@ Understand type casting and classes
 Use basic generics and utility types
 
 
+note:- genereate tsconfig.json file using ( tsc --init)
+        set the output directory in outdir:'/output/'
+        and disable declaration file if true to generate the script.d.ts which containe the only declartions
+
+
+        convert all .ts file to in .js using only : tsc   enter 
+
+        add the Es version in the target option 
+
+
 
 */
 
@@ -285,3 +295,62 @@ function userData<T>(data:T[]):T{
 let userCollection = userData(['ankit','yash',"jay",10])
 
 console.log(userCollection)
+
+
+
+// union
+type abc ={
+    name:string,
+    age:number
+}
+
+type xyz ={
+    city:string
+}
+
+type maintype  = abc | xyz;
+
+const data6:maintype = {
+    name : "ankit",
+     
+    city:"jaipur"
+}
+
+
+
+// intersection
+type abc2 ={
+    name:string,
+    age:number
+}
+
+type xyz2 ={
+    city:string
+}
+
+type maintype2  = abc2 & xyz2;
+
+const data7:maintype2 = {
+    name : "ankit",
+    age:20, 
+
+    city:"jaipur"
+}
+
+
+// inference 
+
+const user ={
+    name:"abc",
+    id:0, 
+}
+
+interface User {
+  name: string;
+  id: number;
+}
+
+const user2: User = {
+  name: "Hayes",
+  id: 0,
+};

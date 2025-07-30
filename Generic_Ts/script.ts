@@ -24,9 +24,15 @@ function fruits2<T>(name:T):T{
 }
 
 let onlyFruit = fruits2("mango")
+
 let onlyNumber  = fruits2(10)
+
+
 let onlyBool = fruits2(true)
+
 let onlyOther = fruits2("orange")
+
+
 
 // NOTE:- if use use any data type in function to set the 'any' data type in all variable in function call 
 
