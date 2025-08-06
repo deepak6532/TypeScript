@@ -204,7 +204,8 @@ let newuser :UserType = {
 
 
 
-// // diffrence type use = and interface use object 
+// // diffrence (type vs interface)
+//  type use = and interface use object 
 //     // we can not define type same name but object create same name we can merge both in memory
 // example:-
 
@@ -249,6 +250,11 @@ let newuser :UserType = {
 // }
 
 // // 1:55 class
+
+
+Good morning sir 
+this side deepak 
+i have complted the PostgreSQl and Prisma.
 
 
 
